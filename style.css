@@ -91,3 +91,53 @@ nav li {
     max-width: 600px;
     margin-top: 40px;
 }
+/* Footer */
+
+footer {
+    background-color: #5b359d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-title {
+    font-size: 12px;
+    margin: 20px 0 10px 0;
+}
+
+#footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+#footer-social img {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+#footer-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#footer-adress {
+    list-style: none;
+}
+
+.footer-item h3 {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.footer-item li {
+    font-size: 14px;
+}
