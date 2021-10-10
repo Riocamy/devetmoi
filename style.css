@@ -141,3 +141,11 @@ footer {
 .footer-item li {
     font-size: 14px;
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 550px) {
+    #information, #footer-items {
+        flex-direction: column;
+    }
+}
